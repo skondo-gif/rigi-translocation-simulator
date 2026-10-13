@@ -7,6 +7,7 @@ abstract: >-
   multi-molecule complexes, built to examine how pausing relates to filament formation
   (WT vs. Δ2CARD RIG-I).
 version: 1.0.0
+doi: 10.5281/zenodo.23334132
 license: MIT
 repository-code: "https://github.com/skondo-gif/rigi-translocation-simulator"
 keywords:

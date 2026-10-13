@@ -5,7 +5,8 @@ multi-molecule complexes, built to examine how pausing relates to filament forma
 (WT vs. Δ2CARD RIG-I). The simulator runs in the browser (React + TypeScript + Vite); the user
 interface is in Japanese.
 
-- Archived release DOI: _to be added after archiving_
+- Archived release (v1.0.0) DOI: [10.5281/zenodo.23334132](https://doi.org/10.5281/zenodo.23334132)
+  (all versions: [10.5281/zenodo.23334131](https://doi.org/10.5281/zenodo.23334131))
 - Paper: _to be added_
 
 ## Model
