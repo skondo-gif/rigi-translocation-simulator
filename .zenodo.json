@@ -5,19 +5,60 @@
   "version": "1.0.0",
   "license": "MIT",
   "access_right": "open",
-  "keywords": ["RIG-I", "dsRNA", "filament formation", "HS-AFM", "simulation"],
+  "keywords": [
+    "RIG-I",
+    "dsRNA",
+    "filament formation",
+    "HS-AFM",
+    "simulation"
+  ],
   "creators": [
-    {"name": "Kondo, Sota", "affiliation": "Graduate School of Frontier Science Initiative, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"},
-    {"name": "Zhang, Jiayan", "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"},
-    {"name": "Matsushima, Keisuke", "affiliation": "Graduate School of Natural Science and Technology, Kanazawa University, Kanazawa, Ishikawa, Japan"},
-    {"name": "Kurihara, Nina", "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"},
-    {"name": "Flechsig, Holger", "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"},
-    {"name": "Umeda, Kenichi", "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"},
-    {"name": "Kodera, Noriyuki", "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"},
-    {"name": "Kato, Kazuki", "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"},
-    {"name": "Shibata, Mikihiro", "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"}
+    {
+      "name": "Kondo, Sota",
+      "affiliation": "Graduate School of Frontier Science Initiative, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"
+    },
+    {
+      "name": "Zhang, Jiayan",
+      "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"
+    },
+    {
+      "name": "Matsushima, Keisuke",
+      "affiliation": "Graduate School of Natural Science and Technology, Kanazawa University, Kanazawa, Ishikawa, Japan"
+    },
+    {
+      "name": "Kurihara, Nina",
+      "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"
+    },
+    {
+      "name": "Flechsig, Holger",
+      "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan",
+      "orcid": "0000-0003-4984-9294"
+    },
+    {
+      "name": "Umeda, Kenichi",
+      "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan",
+      "orcid": "0000-0002-3650-3828"
+    },
+    {
+      "name": "Kodera, Noriyuki",
+      "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan",
+      "orcid": "0000-0003-4880-8423"
+    },
+    {
+      "name": "Kato, Kazuki",
+      "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"
+    },
+    {
+      "name": "Shibata, Mikihiro",
+      "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan",
+      "orcid": "0000-0001-5041-3979"
+    }
   ],
   "related_identifiers": [
-    {"identifier": "https://github.com/skondo-gif/rigi-translocation-simulator", "relation": "isSupplementTo", "scheme": "url"}
+    {
+      "identifier": "https://github.com/skondo-gif/rigi-translocation-simulator",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
   ]
 }
