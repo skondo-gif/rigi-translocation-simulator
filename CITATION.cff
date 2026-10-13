@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "RIG-I translocation simulator"
+abstract: >-
+  A one-dimensional simulation of RIG-I molecules translocating along dsRNA, pausing, and forming
+  multi-molecule complexes, built to examine how pausing relates to filament formation
+  (WT vs. Δ2CARD RIG-I).
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/skondo-gif/rigi-translocation-simulator"
+keywords:
+  - RIG-I
+  - dsRNA
+  - filament formation
+  - HS-AFM
+  - simulation
+authors:
+  - family-names: Kondo
+    given-names: Sota
+    affiliation: "Graduate School of Frontier Science Initiative, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"
+  - family-names: Zhang
+    given-names: Jiayan
+    affiliation: "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"
+  - family-names: Matsushima
+    given-names: Keisuke
+    affiliation: "Graduate School of Natural Science and Technology, Kanazawa University, Kanazawa, Ishikawa, Japan"
+  - family-names: Kurihara
+    given-names: Nina
+    affiliation: "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"
+  - family-names: Flechsig
+    given-names: Holger
+    affiliation: "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"
+  - family-names: Umeda
+    given-names: Kenichi
+    affiliation: "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"
+  - family-names: Kodera
+    given-names: Noriyuki
+    affiliation: "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"
+  - family-names: Kato
+    given-names: Kazuki
+    affiliation: "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"
+  - family-names: Shibata
+    given-names: Mikihiro
+    affiliation: "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"

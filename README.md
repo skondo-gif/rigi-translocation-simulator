@@ -101,4 +101,5 @@ scripts/        make_snapshots.ts (snapshot figures)
 
 ## License and citation
 
-_To be added._
+Released under the MIT License (see `LICENSE`). To cite this software, use the metadata in
+`CITATION.cff` (GitHub's "Cite this repository") or the DOI above.

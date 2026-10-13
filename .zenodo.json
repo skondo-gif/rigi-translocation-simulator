@@ -1,0 +1,23 @@
+{
+  "title": "RIG-I translocation simulator",
+  "upload_type": "software",
+  "description": "A one-dimensional simulation of RIG-I molecules translocating along dsRNA, pausing, and forming multi-molecule complexes, built to examine how pausing relates to filament formation (WT vs. Δ2CARD RIG-I). Includes the simulation engine, the measured HS-AFM distributions used as input, and scripts to regenerate the figures.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["RIG-I", "dsRNA", "filament formation", "HS-AFM", "simulation"],
+  "creators": [
+    {"name": "Kondo, Sota", "affiliation": "Graduate School of Frontier Science Initiative, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"},
+    {"name": "Zhang, Jiayan", "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"},
+    {"name": "Matsushima, Keisuke", "affiliation": "Graduate School of Natural Science and Technology, Kanazawa University, Kanazawa, Ishikawa, Japan"},
+    {"name": "Kurihara, Nina", "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"},
+    {"name": "Flechsig, Holger", "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"},
+    {"name": "Umeda, Kenichi", "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"},
+    {"name": "Kodera, Noriyuki", "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"},
+    {"name": "Kato, Kazuki", "affiliation": "Mechanistic Immunology Research Unit, Institute of Integrated Research, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan"},
+    {"name": "Shibata, Mikihiro", "affiliation": "WPI Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan"}
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/skondo-gif/rigi-translocation-simulator", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}
