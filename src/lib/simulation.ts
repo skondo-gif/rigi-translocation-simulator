@@ -336,7 +336,9 @@ class TrialSimulator {
   run(recordFrames: boolean): { result: TrialResult; frames: TrialFrame[] } {
     const frames: TrialFrame[] = [];
     let lastGroups: ContactGroup[] = [];
-    while (this.simTime <= MAX_HORIZON_S && !this.allExited()) {
+    // EPS: simTime accumulates 0.1 s steps in floating point, so without the tolerance the
+    // frame at exactly MAX_HORIZON_S is dropped (the last frame would be 399.9 s).
+    while (this.simTime <= MAX_HORIZON_S + EPS && !this.allExited()) {
       this.handleInjection();
       this.resolveMovement();
       lastGroups = this.computeContactGroups();

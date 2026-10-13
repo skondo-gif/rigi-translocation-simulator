@@ -15,7 +15,7 @@ interface is in Japanese.
 | dsRNA | straight line, 106 nm |
 | RIG-I | circle, 7.04022 nm in diameter |
 | Time step | 0.1 s |
-| Maximum duration | 400 s per run (a run ends earlier once every molecule has left the dsRNA) |
+| Maximum duration | 400 s per run, frames at 0, 0.1, …, 400 s (a run ends earlier once every molecule has left the dsRNA) |
 | Molecules per run | up to 20 |
 | Introduction | sequential at the 5′ end; the gap to the previous molecule is drawn uniformly from 20–50 s |
 | Velocity | constant mean velocity per construct: WT 0.39 nm/s, Δ2CARD 0.81 nm/s (default; the app can optionally resample the measured velocities at every step instead) |
@@ -45,12 +45,12 @@ give identical results.
 
 All statistics use 20 fixed random numbers (seeds 42–61), each defining one independent block.
 
-- **Complex-size occupancy**: 15 trials per block. Complex sizes (1, 2, 3, 4, ≥5) of all molecules
-  on the dsRNA are tallied at every 10-s mark of each trial, excluding molecules not yet introduced
-  or already dissociated; the result is the share of each size among all tallied records of the block.
-  Implementation note: the tally uses every 0.1-s frame whose time rounds to a multiple of 10 s
-  (`Math.round(t) % 10 === 0` in `src/lib/experiments.ts`), i.e. about 10 consecutive frames around
-  each 10-s mark.
+- **Complex-size occupancy**: one 400-s simulation is a trial; 15 trials make one block. In each
+  trial the complex size (1, 2, 3, 4, ≥5) of every molecule on the dsRNA is recorded every 10 s from
+  40 s to 400 s (37 records per trial; the first 30 s are excluded because few molecules have entered
+  the dsRNA), excluding molecules not yet introduced or already dissociated. The occupancy of each
+  size is its share of all records of the block (`computeOccupancyPerSeed` in
+  `src/lib/experiments.ts`).
 - **Complex-size reach rate**: 200 trials per block. For each trial the largest complex size reached
   is compared with the thresholds 2, 3, 4 and 5; the reach rate is the percentage of the block's 200
   trials that met each threshold.

@@ -41,6 +41,7 @@ const SIZES = [1, 2, 3, 4, 5] as const; // 5 = "5以上"
 
 /** 占有率: 20シード x trialsPerSeed試行を全軌跡記録付きで実行し、10秒おきにサンプリングして
  *  複合体サイズ(1/2/3/4/5以上)の分布をシードごとに求める(各シード内で100%に正規化)。
+ *  サンプリングは各試行の40〜400秒に10秒おき(1試行37点)。
  *  戻り値: シードごとの[size1,size2,size3,size4,size5+]の配列(%)。 */
 export async function computeOccupancyPerSeed(
   dist: Distributions,
@@ -59,7 +60,10 @@ export async function computeOccupancyPerSeed(
     for (let i = 0; i < trialsPerSeed; i++) {
       const { frames } = runTrial('WT', i, p, dist, true);
       for (const f of frames) {
-        if (Math.round(f.t) % 10 !== 0) continue;
+        // One record every 10 s from 40 s to 400 s (37 records per trial). The first 30 s are
+        // excluded because few molecules have entered the dsRNA during initial loading.
+        const tenths = Math.round(f.t * 10);
+        if (tenths < 400 || tenths % 100 !== 0 || Math.abs(f.t * 10 - tenths) > 1e-3) continue;
         for (const m of f.molecules) {
           if (m.status === 'pending' || m.status === 'finished') continue;
           const sz = Math.min(5, m.clusterSize);
