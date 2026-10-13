@@ -1,0 +1,20 @@
+<svg width="1325.292320000001" height="190" viewBox="0 0 1325.292320000001 190" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica">
+<rect x="0" y="0" width="1325.292320000001" height="190" fill="white"/>
+<text x="16" y="26" font-size="16" font-weight="bold" fill="#111827">Simulated WT</text>
+<text x="1309.292320000001" y="26" font-size="13" text-anchor="end" fill="#4b5563">t = 383 s</text>
+<line x1="307.2923200000008" y1="108" x2="1155.292320000001" y2="108" stroke="#b8c0cc" stroke-width="4" stroke-linecap="round"/>
+<text x="307.2923200000008" y="67.83912000000001" font-size="13" text-anchor="start" fill="#374151">5′ppp</text>
+<text x="1155.292320000001" y="67.83912000000001" font-size="13" text-anchor="end" fill="#374151">3′</text>
+<text x="16" y="176" font-size="12" text-anchor="start" fill="#6b7280">×9 not yet injected</text>
+<rect x="65.8" y="79.8" width="394.3" height="56.3" rx="28.2" fill="#7c3aed" stroke="#5b21b6" stroke-width="1.5"/>
+<line x1="122.2" x2="122.2" y1="83.8" y2="132.2" stroke="#5b21b6" stroke-width="1" opacity="0.6"/>
+<line x1="178.5" x2="178.5" y1="83.8" y2="132.2" stroke="#5b21b6" stroke-width="1" opacity="0.6"/>
+<line x1="234.8" x2="234.8" y1="83.8" y2="132.2" stroke="#5b21b6" stroke-width="1" opacity="0.6"/>
+<line x1="291.1" x2="291.1" y1="83.8" y2="132.2" stroke="#5b21b6" stroke-width="1" opacity="0.6"/>
+<line x1="347.4" x2="347.4" y1="83.8" y2="132.2" stroke="#5b21b6" stroke-width="1" opacity="0.6"/>
+<line x1="403.8" x2="403.8" y1="83.8" y2="132.2" stroke="#5b21b6" stroke-width="1" opacity="0.6"/>
+<circle cx="1151.3" cy="108" r="28.2" fill="#2563eb" stroke="rgba(0,0,0,0.15)" stroke-width="1"/>
+<circle cx="968.7" cy="108" r="28.2" fill="#2563eb" stroke="rgba(0,0,0,0.15)" stroke-width="1"/>
+<circle cx="895.9" cy="108" r="28.2" fill="#2563eb" stroke="rgba(0,0,0,0.15)" stroke-width="1"/>
+<circle cx="669.8" cy="108" r="28.2" fill="#f59e0b" stroke="rgba(0,0,0,0.15)" stroke-width="1"/>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "WTsimulation": {
+    "trialIdx": 0,
+    "t": 383.3,
+    "maxClusterSizeAtFrame": 7,
+    "maxClusterSizeWholeTrial": 7,
+    "everFormedFilament": true
+  },
+  "DCARDsim": {
+    "trialIdx": 0,
+    "t": 271.4,
+    "maxClusterSizeAtFrame": 1,
+    "maxClusterSizeWholeTrial": 1,
+    "everFormedFilament": false
+  },
+  "WTNopause": {
+    "trialIdx": 0,
+    "t": 276.5,
+    "maxClusterSizeAtFrame": 1,
+    "maxClusterSizeWholeTrial": 1,
+    "everFormedFilament": false
+  },
+  "WTDCARDspeed": {
+    "trialIdx": 1,
+    "t": 282.9,
+    "maxClusterSizeAtFrame": 2,
+    "maxClusterSizeWholeTrial": 4,
+    "everFormedFilament": false
+  }
+}

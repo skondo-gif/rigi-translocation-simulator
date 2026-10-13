@@ -1,0 +1,42 @@
+:root {
+  --bg: #f5f6f8;
+  --panel-bg: #ffffff;
+  --border: #dde2e8;
+  --text: #1f2430;
+  --text-muted: #667085;
+  --accent: #2563eb;
+  --accent-dark: #1d4ed8;
+
+  --c-wt: #2563eb;
+  --c-dcard: #ea580c;
+
+  --c-pending: #9ca3af;
+  --c-moving: #2563eb;
+  --c-paused: #f59e0b;
+  --c-bound: #7c3aed;
+  --c-bound-border: #5b21b6;
+  --c-finished: #16a34a;
+  --c-dissociated: #ef4444;
+  --c-track: #b8c0cc;
+
+  --c-formed: #16a34a;
+  --c-notformed: #d1d5db;
+
+  font-family: 'Hiragino Sans', 'Yu Gothic', 'Segoe UI', system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button {
+  font-family: inherit;
+}
