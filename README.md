@@ -58,6 +58,10 @@ All statistics use 20 fixed random numbers (seeds 42–61), each defining one in
   therefore the same random draws; they differ only in which measured distribution is applied
   (`buildDistributionFor` in `src/lib/experiments.ts`).
 
+Values regenerated with this release may differ from those plotted in the manuscript figures in the
+first decimal place (at most about 0.4 percentage points for occupancy and 0.1 for reach rate); the
+conclusions and the significance of every comparison are unchanged.
+
 ## Running
 
 Requires Node.js 18 or later (developed with Node 24 / npm 11).
